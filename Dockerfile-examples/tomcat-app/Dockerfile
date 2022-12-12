@@ -3,7 +3,7 @@
 # Pull centos from dockerhub                                        FROM
 # Install java                                                      RUN
 # Create /opt/tomcat directory                                      RUN
-# Changes work directory to /opt/tomcat                             WORKSPACE 
+# Changes work directory to /opt/tomcat                             WORKDIR 
 # Download tomcat packages                                          ADD<tomcat URL>/RUN
 # Extract tar.gz                                                    RUN
 # Rename to tomcat directory                                        RUN
